@@ -1,0 +1,24 @@
+:root{
+    --text-color: 
+}
+body {
+    background-color:rgb(254, 221, 243);
+}
+footer{
+    background-color:rgb(185, 207, 255)
+}
+.cartao__conteudo {
+    background-color: var(--card-front-white);
+    text-align: center;
+    height:100%;
+    transform-style:preserve-3d;
+    transition: transform 300ms ease-in-out;
+}
+ #container {
+    display: flex;
+    flex-wrap: wrap;
+ }
+.cartao {
+    margin: 1rem 1rem;
+    height: 20rem
+}
